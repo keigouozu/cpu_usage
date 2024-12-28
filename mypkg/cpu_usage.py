@@ -24,13 +24,5 @@ class CpuUsage(Node):
 def main():
     rclpy.init()
     node = CpuUsage()
-    try:
-        rclpy.spin(node)
-    except rclpy.executors.ExternalShutdownException:
-        pass
-    except KeyboardInterrupt:
-        pass
-    finally:
-        if rclpy.ok():
-            node.destroy_node()
-            rclpy.shutdown()
+    rclpy.spin(node)
+    rclpy.shutdown()
