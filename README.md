@@ -23,7 +23,7 @@ ros2 run mypkg cpu_usage
 ```
 
 ## 実行環境
-- python: バージョン3.10以降
+- **python**: バージョン3.10以降
 - **os**: Ubuntu 22.04 LTS以降
 - **Shell** Bashバージョン5.0以降
 
