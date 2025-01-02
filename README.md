@@ -16,14 +16,14 @@ ros2 run mypkg cpu_usage
 [INFO] [1735398406.682730751] [cpu_usage]: Current cpu usage: 6.3%
 [INFO] [1735398407.682607246] [cpu_usage]: Current cpu usage: 6.3%
 ```
+
 ## トピック一覧
-1.cpu_usage
-- 説明:
-  CPU使用率のデータをパブリッシュします。値はFloat32型で送られます。
+**cpu_usage**
+- CPU使用率のデータをパブリッシュします。値はFloat32型で送られます。
+
 ## ノード一覧
-1.cpu_usage
-- 説明:
-  CPUの使用率を1秒ごとに取得し、cpu_usageトピックにパブリッシュします。
+**cpu_usage**
+- CPUの使用率を1秒ごとに取得し、cpu_usageトピックにパブリッシュします。
 
 ## 実行環境
 - **python**: バージョン3.10以降
