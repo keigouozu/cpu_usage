@@ -2,7 +2,7 @@
 [![test](https://github.com/keigouozu/cpu_usage/actions/workflows/cpu_usage_test.yml/badge.svg)](https://github.com/keigouozu/cpu_usage/actions/workflows/cpu_usage_test.yml)
 
 ## 概要
-- 端末のcpu使用率を出力できます
+- 端末のCPU使用率を出力できます
 
 ## 実行方法
 ```bash
@@ -23,7 +23,7 @@ ros2 run mypkg cpu_usage
 
 ## ノード一覧
 **cpu_usage**
-- CPUの使用率を1秒ごとに取得し、cpu_usageトピックにパブリッシュします。
+- CPU使用率を1秒ごとに取得し、cpu_usageトピックにパブリッシュします。
 
 ## 実行環境
 - **python**: バージョン3.10以降
