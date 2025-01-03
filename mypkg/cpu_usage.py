@@ -18,8 +18,7 @@ class CpuUsage(Node):
         cpu_usage = psutil.cpu_percent(interval=None)  
         msg = Float32()
         msg.data = cpu_usage
-        self.pub.publish(msg)
-        self.get_logger().info(f"Current cpu usage: {cpu_usage:.1f}%")        
+        self.pub.publish(msg)      
 
 def main():
     rclpy.init()
